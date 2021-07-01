@@ -16,25 +16,52 @@ Yêu cầu Hệ Thống:
 	Quản lý đầy đủ , chặt chẽ về thông tin các rạp và quá trình hoạt động của mỗi rạp 
 
 Yêu cầu chức năng:
-	Supper Admin
-		- Quản lý các Admin 
-		- Quản lý tất cả các rạp phim (Xem , thêm ,sửa thông tin rạp)
-			Rạp(mã, tên rạp , mô tả , địa chỉ hotline , tên người quản lý rạp, bình luận(đánh giá))
-		- Có đầy đủ các chức năng của Admin
+1. Supper Admin
+	- Quản lý các Admin 
+	- Quản lý tất cả các rạp phim (Xem , thêm ,sửa thông tin rạp)
+		Rạp(mã, tên rạp , mô tả , địa chỉ hotline , tên người quản lý rạp, bình luận(đánh giá))
+	- Có đầy đủ các chức năng của Admin
 	
 
-	Admin 
-	Quản lý phim
-		- Phim sắp công chiếu (chưa có lịch công chiếu -> chưa đặt được vé) : Mô tả về phim , trailler , thời gian bắt đầu công chiếu
-		- Phim đang công chiếu(đặt được vé) : Quản lý số ghế đã đặt , số ghế trống của mỗi bộ phim , phim ăn khách
-	Quản lý thời gian chiếu của từng bộ phim 
-		-Thời gian chiếu của mỗi phim tuỳ thuộc vào độ ăn khách của phim đó (nhiều nhất là 2 tháng)
-		-Thời gian chiếu ít nhất của 1 bộ phim là 2 tuần
-	Quản lý các phòng chiếu 
-		- Số lượng vé đã đặt của các phòng theo từng ngày
+2. Admin 
+	- Quản lý tất cả các rạp phim (Xem , thêm ,sửa thông tin rạp)
 
+	- Quản lý danh sách phim: 
+		+ Xem danh sách phim
+		+ Tìm kiếm phim
+		+ Thêm phim
+		+ Cập nhật thông tin phim:
+			Phim sắp công chiếu (chưa có lịch công chiếu -> chưa đặt được vé) : Mô tả về phim, trailler, thời gian bắt đầu công chiếu
+			Phim đang công chiếu(đặt được vé) : ngày, giờ, tên phim, giá vé, số ghế đã đặt, số ghế trống của mỗi bộ phim , phim ăn khách
 
-	Khách hàng : 
+	- Quản lý lịch chiếu phim
+		+ Xem lịch chiếu phim
+		+ Tìm kiếm lịch chiếu
+		+ Thêm lịch chiếu
+		+ Sửa lịch chiếu: 
+			=>Chú ý: về thời gian chiếu của từng bộ phim 
+				-Thời gian chiếu của mỗi phim tuỳ thuộc vào độ ăn khách của phim đó (nhiều nhất là 2 tháng)
+				-Thời gian chiếu ít nhất của 1 bộ phim là 2 tuần
+
+	- Quản lý danh sách các phòng chiếu phim
+		+ Xem danh sách phòng 
+		+ Tìm kiếm danh sách phòng 
+		+ Thêm phòng
+		+ Cập nhật thông tin phòng: Số lượng vé đã đặt của các phòng theo từng ngày
+
+	- Quản lý danh sách các sự kiện khuyến mãi ở rạp phim
+		+ Xem các sự kiện
+		+ Tìm kiếm sự kiện
+		+ Thêm sự kiện
+		+ Cập nhật sự kiện: các dịp lễ, tết, ngày nghỉ...
+	- Quản lý ghế: 
+		+ Loại ghế: vip, đôi, thường
+		+ Thêm ghế
+		+ Thay đổi thông tin ghế
+	
+	- Thống kê số lượng phim và vé xem phim
+
+3. Khách hàng : 
 	Lưu ý : Có 2 đối tượng là khách hàng có tài khoản và khách không có tài khoản 
 	khách có tài khoản sẽ có nhiều quyền hơn(mua vé, xem lịch sử mua, xem tài khoản, chỉnh sửa thông tin tài khoản)
 	* Chức năng 1 : Đăng ký 
