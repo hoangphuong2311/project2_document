@@ -69,7 +69,7 @@ Yêu cầu chức năng:
 		- Điền đầy đủ các trường => Đăng ký
 	* Chức năng 2 : Đăng nhập
 		- Đăng nhập để có thể đặt vé 
-	* Chức năng 3 : Xem (Chọn rạp cần xem)
+	* Chức năng 3 : Xem (rạp & phim)
 		- Rạp : Địa điểm và thông tin của rạp đang được chọn 
 		- Phim : 
 			+ Phim đang công chiếu : 
@@ -92,7 +92,7 @@ Yêu cầu chức năng:
 			+ Công bố các rạp mới 
 			+ Những bộ phim đang ăn khách và được khán giả đánh giá cao 
 	* Chức năng 4 : Đặt vé 
-		- Đăng ký , đăng nhập 
+		- Chỉ khách có tài khoản( khách ko có tài khoản cần đăng ký) 
 		- Chọn rạp xem (Vị trí , chi nhánh) -> chưa chọn (Chưa đặt được vé)
 		- Chọn phim 
 		- Chọn độ tuổi của người xem(vì có những bộ phim cấm trẻ em)
@@ -106,5 +106,5 @@ Yêu cầu chức năng:
 	* Chức năng 6 : Tìm kiếm 
 		- Tìm kiếm tên phim , thể loại phim
 	* Chức năng 7 : Bình luận 
-	 	- Khách hàng có thể bình luận về phim
-		- khách hàng cũng có thể bình luận về rạp 
+	 	- chỉ khách hàng có tài khoản mới có thể bình luận
+		- bày tỏ về thái độ phục vụ, hay chất lượng của phim, rạp
