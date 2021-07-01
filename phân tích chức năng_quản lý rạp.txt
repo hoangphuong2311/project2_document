@@ -1,7 +1,7 @@
 Đề tài : 	
 Phần mềm quản lý bán vé xem phim 
 Mô tả : 
-Công ty JGV là công ty công chiếu phim có rất nhiều chi nhánh và phim chiếu trong ngày. 
+Công ty ABC là công ty công chiếu phim có rất nhiều chi nhánh và phim chiếu trong ngày. 
 Để tránh tình trạng khách hàng chen lấn xô đẩy khi mua vé xem phim  và có thể không mua được vé theo phim mình mong muốn, 
 công ty ABC muốn triển khai 1 phần mềm có thể giúp khách hàng dễ dàng đặt vé và theo dõi thời gian chiếu cũng như ngày chiếu của khách hàng. 
 Khách hàng chỉ cần vào phần mềm chọn chi nhánh  và đặt vé nếu phim còn chiếu và ghế xem còn trống.
